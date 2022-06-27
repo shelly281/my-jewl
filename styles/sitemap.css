@@ -1,0 +1,28 @@
+﻿.pages {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 30vh;
+    justify-content: space-around;
+    justify-items: flex-end;
+    gap: 0px;
+    font-size:18px;
+}
+
+li {
+    list-style: none;
+}
+.pages.li {
+    position: relative;
+    text-align: center;
+}
+
+.two {
+    margin: 0;
+    padding:0;
+    color: grey;
+    text-decoration:underline;
+}

@@ -1,0 +1,45 @@
+﻿
+h2 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    height: 60vh;
+    justify-content: space-around;
+    justify-items: flex-end;
+    align-items: center;
+}
+
+.imgT {
+    display: inline-block;
+    object-fit: cover;
+    text-align: center;
+    width: 30vw;
+    height: 42.5vh;
+    margin-bottom: 500px;
+    margin-top: 300px;
+}
+
+.heart {
+    height: 18px;
+    width: 15px;
+    margin-left: 8px;
+    transition: all .75s ease-in-out;
+}
+
+.heart:hover {
+   height: 20px;
+    width: 18px;
+    margin-left: 8px;
+     transform: rotate(-360deg);
+}
+
+.praimryButton {
+    width: 170px;
+}

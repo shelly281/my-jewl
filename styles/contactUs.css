@@ -1,0 +1,51 @@
+﻿h2 {
+    margin:0;
+}
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+fieldset {
+    border: none;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+legend {
+    font-family:Assistant;
+}
+
+legend, form>label {
+    color: #d27e76;
+    font-weight:600;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.column {
+    align-content: center;
+    width:100%;
+}
+
+p{
+    margin-top:0;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+     width:50%;
+    margin: 8px 2px;
+
+}
+

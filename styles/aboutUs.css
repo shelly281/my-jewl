@@ -1,0 +1,61 @@
+﻿
+.openP {
+    padding-top: 40px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom:100px;
+}
+
+/*הגדרת הדיב כפלקס כדי שכל הריבועים יהיו בשורה אחת עם ריווחים שווים*/
+.containerFlex {
+    display: flex;
+    flex-wrap: nowrap; /*כדי שהתוכן בקוביות לא ישבר לשורות חדשות*/
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    justify-content: space-around; /*כדי שיהיו ריווחים בין הקוביות*/
+    align-items: center;
+    margin-top: 40px;
+}
+
+.squere {
+    height: 250px;
+    width: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+}
+
+.textinSquere {
+    width: 300px;
+    text-align: right;
+}
+
+.pages {
+    list-style: none;
+    padding-right: 115px;
+    text-align: right;
+}
+.hitlogo{
+    width: 250px;
+    height: 200px;
+    display: block;
+   margin:0 auto;
+}
+.hitlink{
+    width: 250px;
+    height: 60px;
+    display: block;
+   margin:0 auto;
+}
+
+li {
+    text-align:right;
+}
+
+h3 {
+    color:#d27e76;
+}
